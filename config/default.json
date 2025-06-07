@@ -1,0 +1,25 @@
+{
+    "name": "fulcrum-rho",
+    "description": "FULCRUM RHO Backend Configuration",
+    "configuration": "default",
+    "version": "1.0.0",
+    "local": "No",
+    "logging": {
+        "level": "error",
+        "transport": {
+            "target": "pino-pretty",
+            "options": {
+                "colorize": true,
+                "levelFirst": true,
+                "translateTime": "SYS:dd-mm-yyyy HH:MM:ss"
+            }
+        }
+    },
+    "database": {
+        "host": "localhost",
+        "port": 27017,
+        "database": "fcrm_db",
+        "username": "fcrm_user",
+        "password": "fcrm_password"
+    }
+}

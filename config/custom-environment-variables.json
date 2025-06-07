@@ -1,0 +1,8 @@
+{
+    "settings": {
+        "database": {
+            "username": "FCRM_DB_USER",
+            "password": "FCRM_DB_PASS"
+        }
+    }
+}

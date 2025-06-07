@@ -1,0 +1,25 @@
+{
+    "configuration": "development",
+    "logging": {
+        "level": "info",
+        "transport": {
+            "target": "pino-pretty",
+            "options": {
+                "colorize": true,
+                "levelFirst": true,
+                "translateTime": "SYS:dd-mm-yyyy HH:MM:ss"
+            }
+        }
+    },
+    "server": {
+        "host": "localhost",
+        "port": 3000
+    },
+    "database": {
+        "host": "localhost",
+        "port": 27017,
+        "database": "fcrm_db_dev",
+        "username": "fcrm_user",
+        "password": "fcrm_password"
+    }
+}
