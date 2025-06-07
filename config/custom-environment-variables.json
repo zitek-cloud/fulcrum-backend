@@ -1,8 +1,9 @@
 {
-    "settings": {
-        "database": {
-            "username": "FCRM_DB_USER",
-            "password": "FCRM_DB_PASS"
-        }
+    "sentry": {
+        "dsn": "FCRM_SENTRY_DSN"
+    },
+    "database": {
+        "username": "FCRM_DB_USER",
+        "password": "FCRM_DB_PASS"
     }
 }

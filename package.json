@@ -19,6 +19,8 @@
   "packageManager": "pnpm@10.11.1+sha512.e519b9f7639869dc8d5c3c5dfef73b3f091094b0a006d7317353c72b124e80e1afd429732e28705ad6bfa1ee879c1fce46c128ccebd3192101f43dd67c667912",
   "dependencies": {
     "@apollo/server": "^4.12.2",
+    "@sentry/node": "^9.27.0",
+    "@sentry/profiling-node": "^9.27.0",
     "config": "^4.0.0",
     "cors": "^2.8.5",
     "express": "^5.1.0",
@@ -26,7 +28,8 @@
     "mongoose": "^8.15.1",
     "pino": "^9.7.0",
     "pino-http": "^10.5.0",
-    "pino-pretty": "^13.0.0"
+    "pino-pretty": "^13.0.0",
+    "pino-sentry-transport": "^1.5.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
