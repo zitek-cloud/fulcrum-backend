@@ -5,18 +5,18 @@
     "version": "1.0.0",
     "local": "No",
     "logging": {
-        "level": "info",
-        "transport": {
-            "target": "pino-pretty",
-            "options": {
-                "colorize": true,
-                "levelFirst": true,
-                "translateTime": "SYS:dd-mm-yyyy HH:MM:ss"
-            }
-        }
+        "redact": [
+            "password",
+            "secret",
+            "token",
+            "access_token",
+            "refresh_token",
+            "dsn"
+        ]
     },
-    "sentry": {
-        "dsn": null
+    "server": {
+        "port": 3000,
+        "host": "localhost"
     },
     "database": {
         "host": "localhost",
